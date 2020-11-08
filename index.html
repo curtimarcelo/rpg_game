@@ -5,24 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPG GAME TEXT</title>
-    <style src="style.css"></style>
+    <link rel="stylesheet" href="style.css" media="all"></link>
 </head>
 
-<body>
+<body class="bg"> 
+    
 
-    <div class="AreaDado">
-
+    <section id="content" class="dado">
         <h1 class="titulo">RPG GAME</h1>
 
         <button type="button" onclick="d20()" class="botao"> Rolar Dado </button>
-        
-        <h2>Resultado da jogada: </h2>
+
+        <h2 class="resultado">Resultado da jogada: </h2>
        
-        <p id="d20Resultado"></p>
-        
-        <div id="message"></div>
-    
-    </div>
+        <div class="d20">
+           
+            <p id="d20Resultado"></p>
+        </div>
+
+        <div id="message">
+            <p>
+            </p>
+        </div>
+    </section>
 
     <script src="D20.js"></script>
 </body>

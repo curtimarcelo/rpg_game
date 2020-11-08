@@ -1,0 +1,32 @@
+.bg{
+    background-image: url('beholder_s_battle_by_rainerpetterart-d9ynzbm.jpg');
+    background-size: cover;
+    
+}
+
+
+.dado{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+#titulo {
+    margin: none;
+    background-color: white;
+    padding: 15px;
+   
+}
+
+#message{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 400px;
+    margin-right: 400px; 
+    font-size: 30px;
+    border-radius: 25%;
+    background: rgb(0,0,0);
+    background: linear-gradient(63deg, rgba(0,0,0,1) 0%, rgba(255,0,0,0.44861694677871145) 100%);
+
+}
