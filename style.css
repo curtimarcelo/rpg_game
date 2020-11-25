@@ -5,10 +5,12 @@ html, body {
     padding: 0;
 }
 
+
+
 .bg{
     background: linear-gradient(40deg, rgba(0,0,0,0.8071603641456583) 0%, rgba(0,0,0,0) 100%), url('beholder_s_battle_by_rainerpetterart-d9ynzbm.jpg') 100%;
     background-size: cover;	
-    background-position: center;  
+  
 }
 
 .dado{
